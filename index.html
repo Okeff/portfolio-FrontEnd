@@ -15,18 +15,29 @@
       <nav class="nav">
         <div class="container">
           <div class="row">
-            <div class="col-sm-4 text-center">
+            <div class="col-sm-3 text-center">
               <h1>Portfolio Web</h1>
             </div>
-            <div class="col-sm m-auto">
-              <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Acerca de</a></li>
-                <li class="list-inline-item"><a href="#">Experiencia</a></li>
-                <li class="list-inline-item"><a href="#">Educación</a></li>
-                <li class="list-inline-item"><a href="#">Habilidades</a></li>
-                <li class="list-inline-item"><a href="#">Proyectos</a></li>
-                <li class="list-inline-item"><a href="#">Contáctame</a></li>
-              </ul>
+            <div class="col m-auto">
+              <div class="dropdown">
+                <button
+                  class="btn btn-secondary dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Ir a...
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li class="dropdown-item"><a href="#">Acerca de</a></li>
+                  <li class="dropdown-item"><a href="#">Experiencia</a></li>
+                  <li class="dropdown-item"><a href="#">Educación</a></li>
+                  <li class="dropdown-item"><a href="#">Habilidades</a></li>
+                  <li class="dropdown-item"><a href="#">Proyectos</a></li>
+                  <li class="dropdown-item"><a href="#">Contáctame</a></li>
+                </ul>
+              </div>
             </div>
             <div class="col-sm-1 m-auto">
               <button type="button" class="btn btn-primary">LOGIN</button>
@@ -37,7 +48,11 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 mb-5">
-            <img class="img-fluid w-100" src="images/header-image.jpg" alt="Header Image"/>
+            <img
+              class="img-fluid w-100"
+              src="images/header-image.jpg"
+              alt="Header Image"
+            />
           </div>
         </div>
       </div>
